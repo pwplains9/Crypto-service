@@ -1,0 +1,10 @@
+{
+  "mods": [
+    "vue3-eslint-mod",
+    "husky-mod",
+    "jest-vue3-mod",
+    "vue3-prettier-mod"
+  ],
+  "project_name": "orbital-epic",
+  "template_id": "vue3-plate"
+}

@@ -1,0 +1,45 @@
+@import './mixins.scss';
+
+@mixin tg-14-medium {
+  @include create-font(1.4rem, 500, 2rem);
+}
+
+@mixin tg-16-semi {
+  @include create-font(1.6rem, 600, 2.4rem, none, 4%);
+}
+
+@mixin tg-60-medium {
+  @include create-font(6rem, 500, 7.2rem);
+}
+
+@mixin tg-44-medium {
+  @include create-font(4.4rem, 500, 5.2rem);
+}
+
+@mixin tg-16-reg-ibm {
+  @include create-font(1.6rem, 400, 3.2rem, none, normal, 'IBM Plex Mono');
+}
+
+@mixin tg-16-reg {
+  @include create-font(1.6rem, 400, 2.4rem);
+}
+
+@mixin tg-12-reg {
+  @include create-font(1.2rem, 400, 1.8rem);
+}
+
+@mixin tg-14-semi {
+  @include create-font(1.4rem, 600, 2rem, none, 2%);
+}
+
+@mixin tg-14-reg {
+  @include create-font(1.4rem, 400, 2rem);
+}
+
+@mixin tg-32-medium {
+  @include create-font(3.2rem, 500, 4rem);
+}
+
+@mixin tg-24-medium {
+  @include create-font(2.4rem, 500, 3.6rem);
+}

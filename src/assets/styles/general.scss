@@ -1,0 +1,28 @@
+@import './themes';
+
+:root {
+  --safe-area-top: env(safe-area-inset-top, 44px);
+  --safe-area-bottom: env(safe-area-inset-bottom, 34px);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  overflow-x: hidden;
+  font-variant: normal;
+  font-feature-settings: normal;
+  color: var(--primary-font-color);
+  font-family: 'Montserrat';
+  background: var(--primary-background-solid);
+  transition: $t background-color, $t color;
+}
+
+.app-modal-container {
+  overflow: hidden;
+}
+
+[data-simplebar]:not(.simplebar-dragging) .simplebar-content-wrapper {
+  scroll-behavior: smooth;
+}

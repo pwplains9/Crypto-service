@@ -1,0 +1,32 @@
+/* Все темы работают на основе переменных CSS */
+[theme='light'] {
+  --splash-screen-url: url('/assets/splash/light-splash.png');
+  --primary-background-color: rgba(0, 0, 0, 0.04);
+  --input-bg: rgba(0, 0, 0, 0.04);
+  --input-border: rgba(0, 0, 0, 0.2);
+  --primary-font-color: #000000;
+  --secondary-font-color: #000000;
+  --primary-background-solid: #ffffff;
+  --fade-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.795) 59.06%,
+    #ffffff 100%
+  );
+  --table-background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.02) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  --secondary-background-color: #f1f1f1;
+  --header-background: rgba(0, 0, 0, 0.06);
+  --dropdown-contects:  #EBEBEB;
+  --dropdown-contects-border:  transparent;
+  --dropdown-contects-before:  rgba(0, 0, 0, 0.18);
+}
+
+@media screen and (max-width: 992px) {
+  [theme='light'] {
+    --splash-screen-url: url('/assets/splash/light-splash-mobile.png');
+  }
+}

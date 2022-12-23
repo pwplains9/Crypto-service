@@ -1,0 +1,33 @@
+/* Все темы работают на основе переменных CSS */
+[theme='dark'] {
+  --splash-screen-url: url('/assets/splash/dark-splash.png');
+  --primary-background-color: rgba(255, 255, 255, 0.12);
+  --primary-font-color: #ffffff;
+  --secondary-font-color: #000000;
+  --input-bg: rgba(255, 255, 255, 0.16);
+  --input-border: rgba(255, 255, 255, 0.4);
+  --primary-background-solid: #000000;
+  --fade-gradient: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.795) 59.06%,
+    #000000 100%
+  );
+  --table-background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.12) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  --secondary-background-color: #393939;
+  --header-background: rgba(255, 255, 255, 0.06);
+  --dropdown-contects:  #535353;
+  --dropdown-contects-border:  rgba(255, 255, 255, 0.4);
+  --dropdown-contects-before:  rgba(255, 255, 255, 0.18);
+}
+
+@media screen and (max-width: 992px) {
+  [theme='dark'] {
+    --splash-screen-url: url('/assets/splash/dark-splash-mobile.png');
+    --secondary-font-color: #000000;
+  }
+}
